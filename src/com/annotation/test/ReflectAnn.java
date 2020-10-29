@@ -4,6 +4,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
 public class ReflectAnn {
+
 	public static void main(String[] args) {
 		//1.使用类加载器加载类
 		try {
@@ -26,7 +27,7 @@ public class ReflectAnn {
 				}
 			}
 			
-			//另一种解析方式
+			//5.另一种解析方式
 			for (Method method : m) {
 				Annotation[] as=method.getAnnotations();
 				for (Annotation annotation : as) {
