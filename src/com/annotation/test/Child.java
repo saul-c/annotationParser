@@ -1,10 +1,10 @@
 package com.annotation.test;
 
-@Description(desc="这是类注解",author="alex",age=27)
+@Description(desc="这是类注解",author="alex",age=28)
 public class Child implements Person{
 
 	@Override
-	@Description(desc="这是方法注解",author="alex",age=27)
+	@Description(desc="这是方法注解",author="alex",age=28)
 	public String name() {
 		// TODO Auto-generated method stub
 		return null;
